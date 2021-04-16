@@ -76,6 +76,7 @@ namespace SGBalonmanoAlvaroMerino
             this.jugadoresToolStripMenuItem.Name = "jugadoresToolStripMenuItem";
             this.jugadoresToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.jugadoresToolStripMenuItem.Text = "Jugadores";
+            this.jugadoresToolStripMenuItem.Click += new System.EventHandler(this.jugadoresToolStripMenuItem_Click);
             // 
             // pARTIDOToolStripMenuItem
             // 
@@ -83,6 +84,7 @@ namespace SGBalonmanoAlvaroMerino
             this.pARTIDOToolStripMenuItem.Name = "pARTIDOToolStripMenuItem";
             this.pARTIDOToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
             this.pARTIDOToolStripMenuItem.Text = "PARTIDO";
+            this.pARTIDOToolStripMenuItem.Click += new System.EventHandler(this.pARTIDOToolStripMenuItem_Click);
             // 
             // iNFORMESToolStripMenuItem
             // 
@@ -90,6 +92,7 @@ namespace SGBalonmanoAlvaroMerino
             this.iNFORMESToolStripMenuItem.Name = "iNFORMESToolStripMenuItem";
             this.iNFORMESToolStripMenuItem.Size = new System.Drawing.Size(91, 23);
             this.iNFORMESToolStripMenuItem.Text = "INFORMES";
+            this.iNFORMESToolStripMenuItem.Click += new System.EventHandler(this.iNFORMESToolStripMenuItem_Click);
             // 
             // sALIRToolStripMenuItem
             // 
@@ -109,6 +112,7 @@ namespace SGBalonmanoAlvaroMerino
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Principal";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
