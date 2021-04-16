@@ -68,6 +68,7 @@ namespace SGBalonmanoAlvaroMerino
             this.equiposToolStripMenuItem.Name = "equiposToolStripMenuItem";
             this.equiposToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.equiposToolStripMenuItem.Text = "Equipos";
+            this.equiposToolStripMenuItem.Click += new System.EventHandler(this.equiposToolStripMenuItem_Click);
             // 
             // jugadoresToolStripMenuItem
             // 
@@ -104,6 +105,7 @@ namespace SGBalonmanoAlvaroMerino
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
