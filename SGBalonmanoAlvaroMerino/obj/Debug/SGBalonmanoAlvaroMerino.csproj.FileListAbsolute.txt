@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\bin\Debug\SGBalonmanoAlvaroMerino.exe.config
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\bin\Debug\SGBalonmanoAlvaroMerino.exe
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\bin\Debug\SGBalonmanoAlvaroMerino.pdb
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.Form1.resources
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.Properties.Resources.resources
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.exe
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.pdb
