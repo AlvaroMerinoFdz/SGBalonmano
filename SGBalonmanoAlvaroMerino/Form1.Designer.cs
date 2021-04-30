@@ -35,6 +35,8 @@ namespace SGBalonmanoAlvaroMerino
             this.jugadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pARTIDOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iNFORMESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.búsquedaPartidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +50,7 @@ namespace SGBalonmanoAlvaroMerino
             this.sALIRToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1000, 27);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "msMenu";
             // 
@@ -66,7 +68,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.equiposToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.equiposToolStripMenuItem.Name = "equiposToolStripMenuItem";
-            this.equiposToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.equiposToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.equiposToolStripMenuItem.Text = "Equipos";
             this.equiposToolStripMenuItem.Click += new System.EventHandler(this.equiposToolStripMenuItem_Click);
             // 
@@ -74,7 +76,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.jugadoresToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.jugadoresToolStripMenuItem.Name = "jugadoresToolStripMenuItem";
-            this.jugadoresToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.jugadoresToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.jugadoresToolStripMenuItem.Text = "Jugadores";
             this.jugadoresToolStripMenuItem.Click += new System.EventHandler(this.jugadoresToolStripMenuItem_Click);
             // 
@@ -88,11 +90,27 @@ namespace SGBalonmanoAlvaroMerino
             // 
             // iNFORMESToolStripMenuItem
             // 
-            this.iNFORMESToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.iNFORMESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.búsquedaPartidosToolStripMenuItem,
+            this.informesToolStripMenuItem1});
+            this.iNFORMESToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iNFORMESToolStripMenuItem.Name = "iNFORMESToolStripMenuItem";
-            this.iNFORMESToolStripMenuItem.Size = new System.Drawing.Size(91, 23);
+            this.iNFORMESToolStripMenuItem.Size = new System.Drawing.Size(79, 23);
             this.iNFORMESToolStripMenuItem.Text = "INFORMES";
-            this.iNFORMESToolStripMenuItem.Click += new System.EventHandler(this.iNFORMESToolStripMenuItem_Click);
+            // 
+            // búsquedaPartidosToolStripMenuItem
+            // 
+            this.búsquedaPartidosToolStripMenuItem.Name = "búsquedaPartidosToolStripMenuItem";
+            this.búsquedaPartidosToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.búsquedaPartidosToolStripMenuItem.Text = "Búsqueda Partidos";
+            this.búsquedaPartidosToolStripMenuItem.Click += new System.EventHandler(this.búsquedaPartidosToolStripMenuItem_Click_1);
+            // 
+            // informesToolStripMenuItem1
+            // 
+            this.informesToolStripMenuItem1.Name = "informesToolStripMenuItem1";
+            this.informesToolStripMenuItem1.Size = new System.Drawing.Size(176, 22);
+            this.informesToolStripMenuItem1.Text = "Informes";
+            this.informesToolStripMenuItem1.Click += new System.EventHandler(this.informesToolStripMenuItem1_Click_1);
             // 
             // sALIRToolStripMenuItem
             // 
@@ -106,7 +124,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1000, 500);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
@@ -128,8 +146,10 @@ namespace SGBalonmanoAlvaroMerino
         private System.Windows.Forms.ToolStripMenuItem equiposToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jugadoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pARTIDOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem iNFORMESToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sALIRToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iNFORMESToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem búsquedaPartidosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem1;
     }
 }
 

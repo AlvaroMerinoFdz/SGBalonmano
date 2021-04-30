@@ -57,6 +57,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAgregarEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarEquipo.Designer.cs">
+      <DependentUpon>FrmAgregarEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBusqueda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBusqueda.Designer.cs">
+      <DependentUpon>FrmBusqueda.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,11 +98,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarEquipo.resx">
+      <DependentUpon>FrmAgregarEquipo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmEquipos.resx">
       <DependentUpon>FrmEquipos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformes.resx">
+      <DependentUpon>FrmInformes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmJugadores.resx">
       <DependentUpon>FrmJugadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPartido.resx">
+      <DependentUpon>FrmPartido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="dsBd.xsc">
       <DependentUpon>dsBd.xsd</DependentUpon>
@@ -124,6 +146,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

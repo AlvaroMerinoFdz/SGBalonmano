@@ -53,6 +53,13 @@ namespace SGBalonmanoAlvaroMerino
             formulario.Dock = DockStyle.Fill;
             formulario.Show();
         }
+        private void abrirBusqueda()
+        {
+            FrmBusqueda formulario = new FrmBusqueda();
+            formulario.MdiParent = this;
+            formulario.Dock = DockStyle.Fill;
+            formulario.Show();
+        }
 
 
         private void equiposToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,6 +118,65 @@ namespace SGBalonmanoAlvaroMerino
         }
 
         private void iNFORMESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = DialogResult.Yes;
+            //comprobamos si hay algo abierto
+            if (this.MdiChildren.Length > 0)
+            {
+                if (this.MdiChildren[0].Name != "FrmInformes")
+                {
+                    if (MessageBox.Show("¿Quiere cerrar el formulario actual?", "Información", MessageBoxButtons.YesNo).Equals(resultado))
+                    {
+                        //cerramos el hijo y abrimos el nuevo
+                        abrirInformes();
+                    }
+                }
+            }
+            else abrirInformes();
+        }
+
+        private void búsquedaPartidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void informesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = DialogResult.Yes;
+            //comprobamos si hay algo abierto
+            if (this.MdiChildren.Length > 0)
+            {
+                if (this.MdiChildren[0].Name != "FrmInformes")
+                {
+                    if (MessageBox.Show("¿Quiere cerrar el formulario actual?", "Información", MessageBoxButtons.YesNo).Equals(resultado))
+                    {
+                        //cerramos el hijo y abrimos el nuevo
+                        abrirInformes();
+                    }
+                }
+            }
+            else abrirInformes();
+        }
+
+        private void búsquedaPartidosToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            DialogResult resultado = DialogResult.Yes;
+            //comprobamos si hay algo abierto
+            if (this.MdiChildren.Length > 0)
+            {
+                if (this.MdiChildren[0].Name != "FrmInformes")
+                {
+                    if (MessageBox.Show("¿Quiere cerrar el formulario actual?", "Información", MessageBoxButtons.YesNo).Equals(resultado))
+                    {
+                        //cerramos el hijo y abrimos el nuevo
+                        abrirBusqueda();
+                    }
+                }
+            }
+            else abrirBusqueda();
+        }
+
+        private void informesToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             DialogResult resultado = DialogResult.Yes;
             //comprobamos si hay algo abierto

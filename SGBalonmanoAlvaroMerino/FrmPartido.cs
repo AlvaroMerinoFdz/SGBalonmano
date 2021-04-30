@@ -16,5 +16,18 @@ namespace SGBalonmanoAlvaroMerino
         {
             InitializeComponent();
         }
+
+        private void FrmPartido_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbLocal.Enabled = true;
+            cmbVisitante.Enabled = true;
+
+
+        }
     }
 }

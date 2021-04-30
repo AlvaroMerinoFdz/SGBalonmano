@@ -10,3 +10,6 @@ C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\ob
 C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.csprojAssemblyReference.cache
 C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.FrmJugadores.resources
 C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.FrmEquipos.resources
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.FrmAgregarEquipo.resources
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.FrmInformes.resources
+C:\Users\Usuario\source\repos\SGBalonmanoAlvaroMerino\SGBalonmanoAlvaroMerino\obj\Debug\SGBalonmanoAlvaroMerino.FrmPartido.resources

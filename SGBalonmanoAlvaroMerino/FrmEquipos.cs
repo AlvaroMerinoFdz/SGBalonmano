@@ -31,24 +31,47 @@ namespace SGBalonmanoAlvaroMerino
             this.eQUIPOSTableAdapter.Fill(this.dsBd.EQUIPOS);
 
         }
-
-        private void eQUIPOSDataGridView_DoubleClick(object sender, EventArgs e)
-        {
-            ModificarCelda();
-        }
         private void ModificarCelda()
         {
+            if (comprobarCeldaSeleccionada())
+            {
 
+            }
+            else
+            {
+                MessageBox.Show("Por favor selecciona una fila.");
+            }
         }
-
+        private bool comprobarCeldaSeleccionada()
+        {
+            bool seleccionada = false;
+            if (dgvEquipos.SelectedRows.Count > 0)
+            {
+                seleccionada = true;
+            }
+            return seleccionada;
+        }
         private void btnAñadir_Click(object sender, EventArgs e)
         {
-
+            FrmAgregarEquipo formulario = new FrmAgregarEquipo();
+            formulario.ShowDialog();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            if (comprobarCeldaSeleccionada())
+            {
 
+            }
+            else
+            {
+                MessageBox.Show("Por favor selecciona una fila.");
+            }
+        }
+
+        private void eQUIPOSDataGridView_DoubleClick(object sender, EventArgs e)
+        {
+            ModificarCelda();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)

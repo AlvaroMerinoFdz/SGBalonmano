@@ -329,7 +329,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             // equipoComboBox
             // 
-            this.equipoComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.jUGADORESBindingSource, "Equipo", true));
+            this.equipoComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.jUGADORESBindingSource, "Equipo", true));
             this.equipoComboBox.DataSource = this.eQUIPOSBindingSource;
             this.equipoComboBox.DisplayMember = "Nombre";
             this.equipoComboBox.FormattingEnabled = true;

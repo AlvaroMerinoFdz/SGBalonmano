@@ -34,7 +34,7 @@ namespace SGBalonmanoAlvaroMerino
             this.eQUIPOSBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.eQUIPOSTableAdapter = new SGBalonmanoAlvaroMerino.dsBdTableAdapters.EQUIPOSTableAdapter();
             this.tableAdapterManager = new SGBalonmanoAlvaroMerino.dsBdTableAdapters.TableAdapterManager();
-            this.eQUIPOSDataGridView = new System.Windows.Forms.DataGridView();
+            this.dgvEquipos = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,7 +43,7 @@ namespace SGBalonmanoAlvaroMerino
             this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dsBd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eQUIPOSBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eQUIPOSDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEquipos)).BeginInit();
             this.SuspendLayout();
             // 
             // dsBd
@@ -69,21 +69,21 @@ namespace SGBalonmanoAlvaroMerino
             this.tableAdapterManager.PARTIDOSTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = SGBalonmanoAlvaroMerino.dsBdTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // eQUIPOSDataGridView
+            // dgvEquipos
             // 
-            this.eQUIPOSDataGridView.AutoGenerateColumns = false;
-            this.eQUIPOSDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.eQUIPOSDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvEquipos.AutoGenerateColumns = false;
+            this.dgvEquipos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEquipos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn3});
-            this.eQUIPOSDataGridView.DataSource = this.eQUIPOSBindingSource;
-            this.eQUIPOSDataGridView.Location = new System.Drawing.Point(12, 39);
-            this.eQUIPOSDataGridView.MultiSelect = false;
-            this.eQUIPOSDataGridView.Name = "eQUIPOSDataGridView";
-            this.eQUIPOSDataGridView.Size = new System.Drawing.Size(776, 261);
-            this.eQUIPOSDataGridView.TabIndex = 1;
-            this.eQUIPOSDataGridView.DoubleClick += new System.EventHandler(this.eQUIPOSDataGridView_DoubleClick);
+            this.dgvEquipos.DataSource = this.eQUIPOSBindingSource;
+            this.dgvEquipos.Location = new System.Drawing.Point(12, 39);
+            this.dgvEquipos.MultiSelect = false;
+            this.dgvEquipos.Name = "dgvEquipos";
+            this.dgvEquipos.Size = new System.Drawing.Size(744, 217);
+            this.dgvEquipos.TabIndex = 1;
+            this.dgvEquipos.DoubleClick += new System.EventHandler(this.eQUIPOSDataGridView_DoubleClick);
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -107,7 +107,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.btnAñadir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadir.Location = new System.Drawing.Point(30, 350);
+            this.btnAñadir.Location = new System.Drawing.Point(12, 286);
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(119, 52);
             this.btnAñadir.TabIndex = 2;
@@ -119,7 +119,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.btnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(340, 350);
+            this.btnModificar.Location = new System.Drawing.Point(337, 286);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(117, 52);
             this.btnModificar.TabIndex = 3;
@@ -131,7 +131,7 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(677, 349);
+            this.btnEliminar.Location = new System.Drawing.Point(645, 285);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(111, 53);
             this.btnEliminar.TabIndex = 4;
@@ -143,17 +143,17 @@ namespace SGBalonmanoAlvaroMerino
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 356);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAñadir);
-            this.Controls.Add(this.eQUIPOSDataGridView);
+            this.Controls.Add(this.dgvEquipos);
             this.Name = "FrmEquipos";
             this.Text = "FrmEquipos";
             this.Load += new System.EventHandler(this.FrmEquipos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dsBd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eQUIPOSBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eQUIPOSDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEquipos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -164,7 +164,7 @@ namespace SGBalonmanoAlvaroMerino
         private System.Windows.Forms.BindingSource eQUIPOSBindingSource;
         private dsBdTableAdapters.EQUIPOSTableAdapter eQUIPOSTableAdapter;
         private dsBdTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.DataGridView eQUIPOSDataGridView;
+        private System.Windows.Forms.DataGridView dgvEquipos;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
